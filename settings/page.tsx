@@ -1,0 +1,1 @@
+export default function Settings(){return <main className="p-6"><h1 className="text-3xl">Settings</h1><p>Location database: Conscious Counseling PLLC, Main Office, Telehealth.</p></main>}

@@ -1,0 +1,1 @@
+export default function Page(){return <main className="p-6"><h1 className="text-3xl">Billing: Create CMS-1500</h1><p>This page is linked from the patient billing tab.</p></main>}

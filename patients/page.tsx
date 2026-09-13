@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function PatientsList(){return <main className="p-6"><h1 className="text-3xl">Patients</h1><p className="my-4">Patient database</p><Link className="text-blue-700 underline" href="/patients/PAT-1000001">Open Krystin Marie Butler</Link><br/><Link className="text-blue-700 underline" href="/patients/new">Add New Patient</Link></main>}
