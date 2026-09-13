@@ -1,0 +1,163 @@
+export const agingRows = [
+  {
+    payer: "Colorado Access",
+    current: "$0.00",
+    d15: "$0.00",
+    d30: "$0.00",
+    d45: "$0.00",
+    d60: "$0.00",
+    d75: "$0.00",
+    balance: "$0.00",
+  },
+  {
+    payer: "Anthem Blue Cross",
+    current: "$165.00",
+    d15: "$0.00",
+    d30: "$0.00",
+    d45: "$55.00",
+    d60: "$0.00",
+    d75: "$0.00",
+    balance: "$220.00",
+  },
+];
+
+export const patientAgingRows = [
+  {
+    patient: "Krystin Marie Butler",
+    d30: "$0.00",
+    d60: "$0.00",
+    d90: "$0.00",
+    d120: "$260.00",
+    credit: "$0.00",
+    unallocated: "$0.00",
+    balance: "$260.00",
+  },
+  {
+    patient: "Avery Morgan",
+    d30: "$40.00",
+    d60: "$0.00",
+    d90: "$0.00",
+    d120: "$0.00",
+    credit: "$0.00",
+    unallocated: "$0.00",
+    balance: "$40.00",
+  },
+];
+
+export const transactions = [
+  {
+    date: "1/6/25",
+    type: "Misc. Charge",
+    clinician: "K-But",
+    network: "Direct",
+    primary: "Direct",
+    secondary: "",
+    rate: "$260.00",
+    patientAmount: "$260.00",
+    patientBalance: "$260.00",
+    insuranceAmount: "—",
+    insurancePaid: "—",
+    insuranceStatus: "—",
+  },
+  {
+    date: "1/6/25",
+    type: "H0002",
+    clinician: "K-But",
+    network: "Direct",
+    primary: "Direct",
+    secondary: "",
+    rate: "Not set",
+    patientAmount: "Not set",
+    patientBalance: "—",
+    insuranceAmount: "—",
+    insurancePaid: "$0.00",
+    insuranceStatus: "—",
+  },
+  {
+    date: "1/6/25",
+    type: "90791",
+    clinician: "K-But",
+    network: "In",
+    primary: "Colorado Access",
+    secondary: "Not Set",
+    rate: "Not set",
+    patientAmount: "Not set",
+    patientBalance: "—",
+    insuranceAmount: "Not set",
+    insurancePaid: "$0.00",
+    insuranceStatus: "Submitted Claim",
+  },
+  {
+    date: "4/28/26",
+    type: "H0031",
+    clinician: "K-But",
+    network: "In",
+    primary: "Colorado Access",
+    secondary: "Not Set",
+    rate: "Not set",
+    patientAmount: "Not set",
+    patientBalance: "—",
+    insuranceAmount: "Not set",
+    insurancePaid: "$0.00",
+    insuranceStatus: "Pending Resubmit",
+  },
+];
+
+export const readyClaims = [
+  {
+    patient: "Avery Morgan",
+    dos: "4/28/2026",
+    clinician: "Lena Ortiz, LPC",
+    payer: "Colorado Medicaid",
+    service: "90837",
+    charge: "$165.00",
+    status: "Ready",
+  },
+  {
+    patient: "Sofia Martinez",
+    dos: "4/29/2026",
+    clinician: "Noah Kim, LCSW",
+    payer: "Anthem Blue Cross",
+    service: "90834",
+    charge: "$125.00",
+    status: "Hold: missing eligibility",
+  },
+];
+
+export const claimHistory = [
+  {
+    date: "4/28/2026",
+    batch: "BATCH-0428-A",
+    payer: "Colorado Medicaid",
+    claims: "6",
+    amount: "$990.00",
+    status: "Accepted",
+  },
+  {
+    date: "4/27/2026",
+    batch: "BATCH-0427-B",
+    payer: "Anthem Blue Cross",
+    claims: "2",
+    amount: "$250.00",
+    status: "Rejected",
+  },
+];
+
+export const insurancePayments = [
+  {
+    payer: "Colorado Access",
+    check: "EFT-84219",
+    date: "4/28/2026",
+    amount: "$620.00",
+    method: "ERA",
+    status: "Needs posting",
+  },
+  {
+    payer: "Anthem Blue Cross",
+    check: "CHK-1150",
+    date: "4/21/2026",
+    amount: "$125.00",
+    method: "Manual EOB",
+    status: "Posted",
+  },
+];
